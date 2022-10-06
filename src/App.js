@@ -5,8 +5,8 @@ import './styles.css';
 
 function App() {
 
-  const [question, setQuestion] = useState([])
-
+  const [question, setQuestion] = useState([]);
+  
   const getQuestion = async () => {
     try {
       const response = await fetch("https://jservice.io/api/random?count=1")
@@ -78,10 +78,19 @@ function App() {
         </div>
       </div>
 
-            <div class="winning-message" id="winningMessage">
-    <div data-winning-message-text></div>
-    <button id="restartButton">Restart</button>
-  </div>  
+      {/* <div id="scoreButton" onClick={() => {
+        const handleFunc = () => {
+          if (props.operator === "+") {
+            props.setCount(props.count + 1);
+          } else {
+            props.setCount(props.count - 1);
+          }
+        }
+        return (
+          <button onClick={handleFunc}>{props.operator}</button>
+        )
+      }}
+    </div> */}
       </div>))}
     </div>
     </div>
