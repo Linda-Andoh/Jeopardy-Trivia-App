@@ -1,0 +1,115 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #00904d50;
+  }
+
+  body {
+    background-color: rgba(106, 192, 235, 0.763);
+    color: #005a80b1;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #header {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  button {
+    color: #000080;
+    background-color: rgb(255, 179, 0);
+    font-weight: bold;
+    border: 2px solid rgb(113, 113, 113);
+    border-radius: 3px;
+  }
+
+.randomButton {
+    color: #000080;
+    background-color: rgb(255, 179, 0);
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 3rem;
+    border: 5px solid rgb(113, 113, 113);
+    border-radius: 4px;
+    height: 5%;
+  }
+  
+  .scoreButtons {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid rgb(113, 113, 113);
+    padding: 1rem;
+    flex-direction: row;
+    align-items: center;
+
+  }
+  
+  #wrongAnswerButton {
+    background-color: rgb(174, 141, 7);
+    color: rgb(240, 236, 5);
+    margin-left: .5rem;
+    height: 6vh;
+    width: 10vw;
+  }
+  #correctAnswerButton {
+    background-color: rgb(44, 10, 99);
+    color: rgb(240, 236, 5);
+    height: 6vh;
+    width: 10vw;
+  }
+  
+  .mainText {
+    color: #4f00809f;
+    margin: 1rem;
+  }
+  
+  .questionArea {
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #questionBox {
+    background-color: #002d8079;
+    color: white;
+    border: 6px solid rgb(113, 113, 113);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 60vw;
+    font-size: large;
+    overflow: auto;
+    height: 50vh;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #answerReveal {
+    color: #5a5151;
+    font-size: smaller;
+    background-color: rgb(255, 179, 0);
+    border: 2px solid rgb(216, 211, 211);
+    border-radius: 2px;
+    height: auto;
+    width: 40%;
+  }
+  
+  #gameTitle {
+    text-transform: capitalize;
+    font-size: 1.25rem;
+  }
+  
+  
